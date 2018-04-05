@@ -36,4 +36,16 @@ NotifierSystem.prototype.showNotification = function(notification) {
   })
 }
 
+// eslint-disable-next-line
+NotifierSystem.prototype.removeNotificationById = function (id) {
+  this.uid += 1
+
+  const foundNotification = this.state.notifications.find(val => val.id === id)
+  if (foundNotification) {
+    this.removeNotification(foundNotification)
+    return true
+  }
+  return false
+}
+
 export default NotifierSystem

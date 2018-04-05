@@ -9,7 +9,7 @@ export default {
     './src',
   ],
   output: {
-    filename: 'js/react-notifier-system.js',
+    filename: 'js/bundle.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: ENV_PRODUCTION ? '/static/' : `http://localhost:${WDS_PORT}/dist/`,
   },
