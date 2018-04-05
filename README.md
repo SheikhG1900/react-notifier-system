@@ -2,9 +2,9 @@
 
 [![npm version](https://badge.fury.io/js/react-notifier-system.svg)](https://badge.fury.io/js/react-notifier-system) [![Dependency Status](https://david-dm.org/sheikhG1900/react-notifier-system.svg)](https://david-dm.org/sheikhG1900/react-notifier-system) [![devDependency Status](https://david-dm.org/sheikhG1900/react-notifier-system/dev-status.svg)](https://david-dm.org/sheikhG1900/react-notifier-system#info=devDependencies) [![Build Status](https://travis-ci.org/sheikhG1900/react-notifier-system.svg?branch=master)](https://travis-ci.org/sheikhG1900/react-notifier-system) [![Coverage Status](https://coveralls.io/repos/sheikhG1900/react-notifier-system/badge.svg?branch=master&service=github)](https://coveralls.io/github/sheikhG1900/react-notifier-system?branch=master)
 
-> An extension of [react-notification-system](https://github.com/igorprado/react-notification-system) for showing notifications based on Ids, in order to have more control over notifications.
+> An extension of [react-notification-system](https://github.com/igorprado/react-notification-system) for showing notifications based on `Id`s, in order to have more control over notifications.
 
-<a href="https://igorprado.github.io/react-notification-system/"><img width="728" src="example/src/images/screenshot.jpg" alt="Screenshot"></a>
+<a href="https://igorprado.github.io/react-notification-system/"><img width="728" src="https://github.com/igorprado/react-notification-system/raw/master/example/src/images/screenshot.jpg" alt="Screenshot"></a>
 
 ## Installing
 
