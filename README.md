@@ -26,11 +26,11 @@ import * as React from 'react'
 import Notifier from 'react-notifier-system'
 
 const App = class extends React.Component<{}> {
-  addOrUpdateNotification = () => this.notifier.showNotification({
+  addOrUpdateMyNotification = () => this.notifier.showNotification({
     message: 'My Notification',
     level: 'info',
     title: 'My Notification Title',
-    id: 'uniqueId',
+    id: 'mynotification',
   })
 
   addNotification = () => this.notifier.showNotification({
@@ -39,12 +39,15 @@ const App = class extends React.Component<{}> {
     title: 'New Notification Title',
   })
 
+  removeMyNotification = () => this.notifier.removeNotificationById('mynotification')
+
   notifier: any
   render() {
     return (
       <div>
         <Notifier ref={notifier => this.notifier = notifier} />
-        <button onClick={this.addOrUpdateNotification}>Add or update my notification</button>
+        <button onClick={this.addOrUpdateMyNotification}>Add or update my notification</button>
+        <button onClick={this.removeMyNotification}>Remove my notification</button>
         <button onClick={this.addNotification}>Add new notification</button>
       </div>
     )
