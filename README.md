@@ -65,7 +65,7 @@ ReactDOM.render(
 ### `showNotification(notification)` 
 
 Add or update a notification object. This displays the notification based on the [object](https://github.com/igorprado/react-notification-system#creating-a-notification) you passed.
-It updates the notification if same `id`' found in current notification list, otherwise it adds the notification. This only method can be used instead of using classic [`addNotification`](https://github.com/igorprado/react-notification-system#addnotificationnotification) and [`editNotification`](https://github.com/igorprado/react-notification-system#addnotificationnotification) methods.
+It updates the notification if same `id`' found in current notification list, otherwise it adds the notification. This only method can be used instead of using classic [`addNotification`](https://github.com/igorprado/react-notification-system#addnotificationnotification) and [`editNotification`](https://github.com/igorprado/react-notification-system#editnotificationnotification) methods.
 
 ### `removeNotificationById(notificationId)`
 
