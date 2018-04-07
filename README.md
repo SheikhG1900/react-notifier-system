@@ -1,7 +1,7 @@
 # React Notifier System
 
 [![npm version](https://badge.fury.io/js/react-notifier-system.svg)](https://badge.fury.io/js/react-notifier-system) 
-![npm](https://img.shields.io/npm/dm/react-notifier-system.svg)
+[![npm](https://img.shields.io/npm/dm/react-notifier-system.svg)](https://www.npmjs.com/package/react-notifier-system)
 [![Dependency Status](https://david-dm.org/sheikhG1900/react-notifier-system.svg)](https://david-dm.org/sheikhG1900/react-notifier-system) [![devDependency Status](https://david-dm.org/sheikhG1900/react-notifier-system/dev-status.svg)](https://david-dm.org/sheikhG1900/react-notifier-system#info=devDependencies) [![Build Status](https://travis-ci.org/SheikhG1900/react-notifier-system.svg?branch=master)](https://travis-ci.org/SheikhG1900/react-notifier-system) [![Coverage Status](https://coveralls.io/repos/github/SheikhG1900/react-notifier-system/badge.svg?branch=master)](https://coveralls.io/github/SheikhG1900/react-notifier-system?branch=master)
 
 > An extension of [react-notification-system](https://github.com/igorprado/react-notification-system) for showing notifications with much simpler approach.
