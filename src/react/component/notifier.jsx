@@ -21,7 +21,10 @@ NotifierSystem.prototype.showNotification = function(notification) {
   preparedNotification.ref = `notification-${preparedNotification.uid}`
 
   // update notification if already created
-  const foundNotification = this.state.notifications.find(val => val.id === preparedNotification.id)
+  const foundNotification = (notification.id) ?
+    this.state.notifications.find(val => val.id === notification.id) :
+    null
+
   if (foundNotification) {
     Object.assign(foundNotification, preparedNotification)
   } else {
