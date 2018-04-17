@@ -1,9 +1,12 @@
 # React Notifier System
 
-[![npm version](https://badge.fury.io/js/react-notifier-system.svg)](https://badge.fury.io/js/react-notifier-system) [![Dependency Status](https://david-dm.org/sheikhG1900/react-notifier-system.svg)](https://david-dm.org/sheikhG1900/react-notifier-system) [![devDependency Status](https://david-dm.org/sheikhG1900/react-notifier-system/dev-status.svg)](https://david-dm.org/sheikhG1900/react-notifier-system#info=devDependencies) [![Build Status](https://travis-ci.org/SheikhG1900/react-notifier-system.svg?branch=master)](https://travis-ci.org/SheikhG1900/react-notifier-system) [![Coverage Status](https://coveralls.io/repos/github/SheikhG1900/react-notifier-system/badge.svg?branch=master)](https://coveralls.io/github/SheikhG1900/react-notifier-system?branch=master)
+[![npm version](https://badge.fury.io/js/react-notifier-system.svg)](https://badge.fury.io/js/react-notifier-system) 
+[![npm](https://img.shields.io/npm/dm/react-notifier-system.svg)](https://www.npmjs.com/package/react-notifier-system)
+[![Dependency Status](https://david-dm.org/sheikhG1900/react-notifier-system.svg)](https://david-dm.org/sheikhG1900/react-notifier-system) [![devDependency Status](https://david-dm.org/sheikhG1900/react-notifier-system/dev-status.svg)](https://david-dm.org/sheikhG1900/react-notifier-system#info=devDependencies) [![Build Status](https://travis-ci.org/SheikhG1900/react-notifier-system.svg?branch=master)](https://travis-ci.org/SheikhG1900/react-notifier-system) [![Coverage Status](https://coveralls.io/repos/github/SheikhG1900/react-notifier-system/badge.svg?branch=master)](https://coveralls.io/github/SheikhG1900/react-notifier-system?branch=master)
 
 > An extension of [react-notification-system](https://github.com/igorprado/react-notification-system) for showing notifications with much simpler approach.
 
+[![Edit 305yrwzkk1](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/305yrwzkk1)
 <a href="https://igorprado.github.io/react-notification-system/"><img width="728" src="https://github.com/igorprado/react-notification-system/raw/master/example/src/images/screenshot.jpg" alt="Screenshot"></a>
 
 ## Installing
@@ -65,7 +68,7 @@ ReactDOM.render(
 ### `showNotification(notification)` 
 
 Add or update a notification object. This displays the notification based on the [object](https://github.com/igorprado/react-notification-system#creating-a-notification) you passed.
-It updates the notification if save `id`' found in current notification list, otherwise it adds this notification.
+It updates the notification if same `id`' found in current notification list, otherwise it adds the notification. This only method can be used instead of using classic [`addNotification`](https://github.com/igorprado/react-notification-system#addnotificationnotification) and [`editNotification`](https://github.com/igorprado/react-notification-system#editnotificationnotification) methods.
 
 ### `removeNotificationById(notificationId)`
 
