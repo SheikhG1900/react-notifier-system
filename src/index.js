@@ -1,3 +1,3 @@
-import Notifier from 'react/component/notifier'
+import Notifier from 'react/components/notifier'
 
 export default Notifier
