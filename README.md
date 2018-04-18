@@ -6,7 +6,6 @@
 
 > An extension of [react-notification-system](https://github.com/igorprado/react-notification-system) for showing notifications with much simpler approach.
 
-[![Edit 305yrwzkk1](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/305yrwzkk1)
 <a href="https://igorprado.github.io/react-notification-system/"><img width="728" src="https://github.com/igorprado/react-notification-system/raw/master/example/src/images/screenshot.jpg" alt="Screenshot"></a>
 
 ## Installing
