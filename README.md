@@ -75,5 +75,5 @@ Remove the notification by `id`.
 
 ## Roadmap
 
-* Redux implementation
+* [Redux implementation (done)](https://github.com/sheikhG1900/react-notifier-system-redux)
 
